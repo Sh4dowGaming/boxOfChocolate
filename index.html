@@ -20,7 +20,7 @@
    </style>
     <body>
        <div class="menu">
-          Menu      <a href="https://sh4dowgaming.github.io/squiggly-particle/">Squiggly Partcicle</a>
+          Menu      <a href="https://sh4dowgaming.github.io/squiggly-particle/">Squiggly Partcicle</a>      <a href=" ">Troubleshoot Page</a>
     
     <div class="ascii-art">
   ___  ___  ___  ___  ___.---------------.
@@ -33,3 +33,11 @@
      \|______________________;________________|
      </div>
      <h1>A chocolate!
+        
+<p id="xhoc"></p>
+        document.getElementById("choc").innerHTML = choc
+
+window.setInterval(incChoc, 1000);
+
+        function incChoc() {
+        var choc = choc + 1
