@@ -1,7 +1,6 @@
-var Chocolate = 0
+var choc = 0
 
-chocget() {
-Chocolate = Chocolate + 1
-
-document.getElementById("choc").innerHTML = Chocolate;
+function chocinc() {
+  choc = choc + 1
+  document.getElementById(output)
 }
